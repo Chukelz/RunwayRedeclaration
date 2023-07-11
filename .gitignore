@@ -1,0 +1,5 @@
+/target/*
+/target/surefire-reports
+/airports
+/out
+/src/main/resources/META-INF

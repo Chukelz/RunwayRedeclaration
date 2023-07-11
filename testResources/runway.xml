@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<runway>
+    <heading>27</heading>
+    <mParameters>
+        <asda>3902.0</asda>
+        <lda>3595.0</lda>
+        <resa>240.0</resa>
+        <toda>3902.0</toda>
+        <tora>3902.0</tora>
+    </mParameters>
+    <position>L</position>
+    <threshold>60.0</threshold>
+</runway>

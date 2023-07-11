@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<obstacle>
+    <distancefromLeftThreshold>50.0</distancefromLeftThreshold>
+    <distancefromRightThreshold>3646.0</distancefromRightThreshold>
+    <distancetoCentreLine>0.0</distancetoCentreLine>
+    <height>12.0</height>
+    <name>obstacle1</name>
+    <width>5.0</width>
+</obstacle>
+

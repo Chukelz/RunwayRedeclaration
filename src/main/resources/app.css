@@ -1,0 +1,129 @@
+.keyBox{
+  -fx-background-color: seashell;
+  -fx-opacity: 0.75;
+}
+.small-button{
+  -fx-font-size: 16px;
+  -fx-border-insets: 10px;
+}
+.keyButton{
+  -fx-font-size: 12px;
+  -fx-background-color: transparent;
+}
+.airport-name{
+  -fx-font-size: 24px;
+  -fx-alignment: C;
+}
+.keyButton:hover{
+  -fx-effect: dropshadow(gaussian, midnightblue, 10, .5, 1, 1);
+  -fx-background-color: transparent;
+}
+.menu-title{
+  -fx-font-size: 64px;
+  -fx-fill: black
+}
+
+.menu-button{
+  -fx-font-size: 30px;
+  -fx-pref-height: 100px;
+  -fx-pref-width: 400px;
+  -fx-background-color: #e3e3e3;
+  -fx-border-width: 2px;
+  -fx-border-color: #e3e3e3;
+}
+
+.menu-button:hover{
+  -fx-font-size: 30px;
+  -fx-pref-height: 100px;
+  -fx-pref-width: 400px;
+  -fx-background-color: #b9b9b9;
+  -fx-border-width: 2px;
+  -fx-border-color: #b9b9b9;
+}
+
+.menu-combo{
+  -fx-font-size: 30px;
+  -fx-pref-height: 100px;
+  -fx-pref-width: 400px;
+  -fx-background-color: #e3e3e3;
+  -fx-border-width: 2px;
+  -fx-border-color: #e3e3e3;
+}
+.menu-combo:hover{
+  -fx-font-size: 30px;
+  -fx-pref-height: 100px;
+  -fx-pref-width: 400px;
+  -fx-background-color: #b9b9b9;
+  -fx-border-width: 2px;
+  -fx-border-color: #b9b9b9;
+}
+
+.menu-combo .list-cell{
+  -fx-font-size: 30px;
+  -fx-background-color: #e3e3e3;
+  -fx-border-width: 2px;
+  -fx-border-color: #e3e3e3;
+}
+
+.menu-combo .list-cell:hover{
+  -fx-font-size: 30px;
+  -fx-background-color: #b9b9b9;
+  -fx-border-width: 2px;
+  -fx-border-color: #b9b9b9;
+}
+
+ComboBox{
+  -fx-font-size: 16px;
+  -fx-border-width: 3px;
+  -fx-background-color: #e8e8e8;
+  -fx-border-color: #e8e8e8;
+}
+
+ComboBox:hover{
+  -fx-font-size: 16px;
+  -fx-border-width: 3px;
+  -fx-background-color: #c0c0c0;
+  -fx-border-color: #c0c0c0;
+}
+
+.combo-box .list-cell{
+  -fx-text-fill: black;
+  -fx-font-size: 16px;
+  -fx-background-color: #e8e8e8;
+  -fx-border-color: #e8e8e8;
+}
+
+.combo-box .list-cell:hover{
+  -fx-text-fill: black;
+  -fx-font-size: 16px;
+  -fx-background-color: #c0c0c0;
+  -fx-border-color: #c0c0c0;
+}
+
+Label{
+  -fx-font-size: 16px;
+}
+Text {
+  -fx-font-size: 16px;
+}
+.button {
+  -fx-font-size: 16px;
+  -fx-border-width: 3px;
+  -fx-background-color: #e8e8e8;
+  -fx-border-color: #e8e8e8;
+}
+
+.button:hover {
+  -fx-font-size: 16px;
+  -fx-border-width: 3px;
+  -fx-background-color: #c0c0c0;
+  -fx-border-color: #c0c0c0;
+}
+
+TextField {
+-fx-font-size: 16px;
+}
+CheckBox {
+  -fx-alignment: bottom-right;
+  -fx-font-size: 16px;
+}

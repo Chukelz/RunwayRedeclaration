@@ -1,0 +1,32 @@
+.keyBox{
+  -fx-background-color: seashell;
+  -fx-opacity: 0.75;
+}
+
+.keyButton{
+  -fx-font-size: 12px;
+  -fx-background-color: transparent;
+}
+.keyButton:hover{
+  -fx-effect: dropshadow(gaussian, midnightblue, 10, .5, 1, 1);
+  -fx-background-color: transparent;
+}
+ComboBox{
+  -fx-font-size: 16px;
+}
+Label{
+  -fx-font-size: 16px;
+}
+Text {
+  -fx-font-size: 16px;
+}
+Button {
+  -fx-font-size: 16px;
+}
+TextField {
+-fx-font-size: 16px;
+}
+CheckBox {
+  -fx-alignment: bottom-right;
+  -fx-font-size: 16px;
+}

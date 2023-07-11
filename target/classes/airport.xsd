@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="airport">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="name" type="xs:string" />
+        <xs:element name="ascent" type="xs:double" />
+        <xs:element name="descent" type="xs:double" />
+        <xs:element maxOccurs="unbounded" name="runways">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="heading" type="xs:int" />
+              <xs:element name="position" type="xs:string" />
+              <xs:element name="mParameters">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="toda" type="xs:double" />
+                    <xs:element name="tora" type="xs:double" />
+                    <xs:element name="asda" type="xs:double" />
+                    <xs:element name="lda" type="xs:double" />
+                    <xs:element name="resa" type="xs:double" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="threshold" type="xs:double" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="obstacles">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="distancefromLeftThreshold" type="xs:double" />
+              <xs:element name="distancefromRightThreshold" type="xs:double" />
+              <xs:element name="distancetoCentreLine" type="xs:double" />
+              <xs:element name="height" type="xs:double" />
+              <xs:element name="name" type="xs:string" />
+              <xs:element name="width" type="xs:double" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
